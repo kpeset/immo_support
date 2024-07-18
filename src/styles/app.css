@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+header > h1 {
+  color: yellow;
+}
+
+header > nav {
+  display: flex;
+  gap: 1rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+article {
+  max-width: 20%;
+  background-color: beige;
+  padding: 1rem;
+}
